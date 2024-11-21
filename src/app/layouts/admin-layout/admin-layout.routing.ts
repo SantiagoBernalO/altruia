@@ -1,5 +1,6 @@
 import { Routes } from "@angular/router";
 
+import { HomeComponent } from "src/app/pages/home/home.component";
 import { DashboardComponent } from "../../pages/dashboard/dashboard.component";
 import { IconsComponent } from "../../pages/icons/icons.component";
 import { MapComponent } from "../../pages/map/map.component";
@@ -10,6 +11,7 @@ import { TypographyComponent } from "../../pages/typography/typography.component
 // import { RtlComponent } from "../../pages/rtl/rtl.component";
 
 export const AdminLayoutRoutes: Routes = [
+  { path: "home", component: HomeComponent },
   { path: "dashboard", component: DashboardComponent },
   { path: "icons", component: IconsComponent },
   { path: "maps", component: MapComponent },
